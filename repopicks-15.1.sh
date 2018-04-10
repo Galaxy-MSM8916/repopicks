@@ -1,3 +1,7 @@
 #!/bin/bash
 
-true
+### RepoPick list for samsung-msm8916 ###
+. build/envsetup.sh
+
+## Camera ##
+repopick -f -r 209883
